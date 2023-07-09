@@ -1,4 +1,4 @@
-import 'package:erp_school/src/screens/login/login_screen.dart';
+import 'package:sisapp/src/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'ERP School',
+        title: 'SIS  APP',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),

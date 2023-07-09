@@ -1,6 +1,6 @@
 {
-    "name": "erp_school",
-    "short_name": "erp_school",
+    "name": "sisapp",
+    "short_name": "sisapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

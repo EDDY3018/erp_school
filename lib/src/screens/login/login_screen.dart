@@ -1,5 +1,5 @@
-import 'package:erp_school/src/styles/app_color.dart';
-import 'package:erp_school/src/styles/app_text_style.dart';
+import 'package:sisapp/src/styles/app_color.dart';
+import 'package:sisapp/src/styles/app_text_style.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -35,7 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   child: Column(
                     children: [
                       Text(
-                        "Hi Student",
+                        "Hi Eddy",
                         style: AppTextStyle.style(
                             fontSize: 34, fontWeight: FontWeight.w600),
                       ),
@@ -69,8 +69,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         color: Colors.black.withOpacity(0.8),
                       ),
                       decoration: InputDecoration(
-                        hintText: 'Hipporasy@gmail.com',
-                        labelText: 'Mobile Number/Email',
+                        hintText: 'Helloworld@gmail.com',
+                        labelText: 'Student ID',
                         focusedBorder: UnderlineInputBorder(
                           borderSide:
                               BorderSide(color: Colors.black.withOpacity(0.8)),
@@ -112,6 +112,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                         ),
                         labelText: 'Password',
+                        hintText: 'W3£%hkKY',
                         focusedBorder: UnderlineInputBorder(
                           borderSide:
                               BorderSide(color: Colors.black.withOpacity(0.8)),
